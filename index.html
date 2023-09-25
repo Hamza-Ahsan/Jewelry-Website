@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <section class="header_left">
+        <div>
+          <img src="images/phone.png" alt="phone number" />
+          <span>1-234-5675-098</span><span class="separated">|</span>
+        </div>
+        <div>
+          <img src="images/location.png" alt="locations" />
+          <span class="location">Locations</span>
+          <span class="separated">|</span>
+        </div>
+        <div>
+          <img src="images/appointment.png" alt="appointment" />
+          <span class="appointment">Appointment</span>
+        </div>
+      </section>
+
+      <section class="header_right">
+        <div>Sign In <span class="separated">|</span></div>
+        <div>
+          <img src="images/wish.png" alt="wish" /> Wish List
+          <span class="separated">|</span>
+        </div>
+        <div>English, USD
+          <span class="separated">|</span>
+        </div>
+        <div>Espanol</div>
+      </section>
+    </header>
+
+
+    <!-- Navbar -->
+    <div class="shader"> 
+      
+    <nav>
+      <!-- Upper Navbar -->
+      <section class="nav_upper">
+        <div class="nav_upper_left">
+          <h1>Lorem Espm.</h1>
+        </div>
+        <div class="nav_upper_right">
+          <div class="nav_upper_text">
+            <p>Free Shipping, Free Returns |</p>
+          </div>
+          <div class="nav_upper_search">
+            <input type="search" placeholder="Search" />
+          </div>
+          <div>
+            <img src="images/search.png" alt="search icon" />
+          </div>
+          <div>
+            <img src="images/shopping.png" alt="shopping icon" />
+          </div>
+        </div>
+          <div class="nav_upper_right_600">
+            <div>
+              <img src="images/phone.png" alt="phone" />
+            </div>
+            <div>
+              <img src="images/wish.png" alt="wish" />
+            </div>
+            <div>
+              <img src="images/shopping.png" alt="shopping icon" />
+            </div>
+            <div class="nav_upper_right_600_menu" onclick="openNav()">
+              <img src="images/menu.png" alt="menu" />
+            </div>
+        </div>
+      </section>
+      <div class="nav_upper_right_600_search">
+        <div class="nav_upper_search">
+          <input type="search" placeholder="Search" />
+        </div>
+        <div class="searchBtn">
+          <img src="images/search.png" alt="search icon" />
+        </div>
+      </div>
+    </nav>
+
+      <!-- Lower Navbar -->
+      <div class="nav_lower">
+        <!-- Menu List For Mobile -->
+        <div class="nav_lower_menuList mobile" id="menuList">
+          <h1 class="closeNav" id="closeMenu">X</h1>
+          <ul id="main">
+            <li>
+              <button>Diamonds</button>
+            </li>
+            <li>
+              <button>Engagement</button>
+            </li>
+            <li>
+              <button>Wedding</button>
+            </li>
+            <li>
+              <button>Jewelry</button>
+            </li>
+            <li>
+              <button>Gifts</button>
+            </li>
+            <li>
+              <button>Education</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Menu List For Desktop -->
+        <ul class="nav_lower_desktop">
+          <li>
+            <button>Diamonds</button>
+          </li>
+          <li>
+            <button>Engagement</button>
+          </li>
+          <li>
+            <button>Wedding</button>
+          </li>
+          <li>
+            <button>Jewelry</button>
+          </li>
+          <li>
+            <button>Gifts</button>
+          </li>
+          <li>
+            <button>Education</button>
+          </li>
+        </ul>
+      </div>
+
+
+    <!-- Banner -->
+    <div class="banner">
+      <div class="banner_image">
+        <img
+          class="banner_desktopImg"
+          src="https://bnsec.bluenile.com/bluenile/is/image/bluenile/2023q2-moth-hero-desktop?$alloy_default$&wid=1440&hei=685&crop=10%2C10%2C2880%2C1370&fmt=webp"
+          alt="banner"
+        />
+
+        <img
+          class="banner_mobileImg"
+          src="https://bnsec.bluenile.com/bluenile/is/image/bluenile/2023q2-moth-hero-mobile?$alloy_default$&wid=600&hei=304&crop=521%2C812%2C3021%2C1531&fmt=webp"
+          alt="banner"
+        />
+      </div>
+      <div class="banner_center">
+        <div class="banner_center_text">
+          <h2>Up to 50% off</h2>
+          <h3>Let Mom Shine</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
+            sapiente exercitationem excepturi exercitationem
+          </p>
+          <div>
+            <a href="#"><button>Shop Sale</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Explore Diamonds -->
+    <div class="explore_diamonds">
+      <div class="explore_diamonds_slider">
+        <div>
+          <h1>Explore Diamonds</h1>
+        </div>
+        <div class="explore_diamond_arrows">
+          <span class="slider_prev">&lt;</span>
+          <span class="slider_next">&gt;</span>
+        </div>
+      </div>
+      <div class="explore_diamonds_list">
+        <ul class="slider_list">
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 2</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 3</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 4</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 5</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 6</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 7</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 8</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 9</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/diamond.png" alt="diamond.png diamond.png" />
+              <span>Round 10</span>
+            </a>
+          </li>
+        </ul>
+        </div>
+    </div>
+
+    <!-- Jewelry Designs -->
+    <div class="jewelry_designs">
+      <div class="jewelry_designs_slider">
+        <div>
+          <h1>Explore Jewelry</h1>
+        </div>
+        <div class="jewelry_designs_arrows">
+          <span class="slider_prev" id="prev">&lt;</span>
+          <span class="slider_next" id="next">&gt;</span>
+        </div>
+      </div>
+
+      <div class="jewelry_designs_items">
+        <ul id="slider_menu_list">
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="jewelry_designs_image">
+                <img
+                  src="https://img.freepik.com/free-photo/elegant-ring-with-purple-gemstone_1203-1533.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+                  alt=""
+                />
+              </div>
+              <div class="jewelry_designs_desp">Wedding rings</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- Images Grid -->
+    <div class="images_grid-container">
+      <div class="grid-item grid-item-1">
+        <div class="grid-item_info">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h3>Lorem ipsum dolor sit amet</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            consectetur nihil alias voluptate. Earum tenetur quae quia facere
+            fugiat animi, optio tempore autem, mollitia, est nihil minus facilis
+            officia! Dolor.
+          </p>
+        </div>
+      </div>
+
+        <div class="grid-item grid-item-2">
+          <img
+            src="https://img.freepik.com/free-photo/closeup-diamond-ring_53876-33672.jpg?size=626&ext=jpg&ga=GA1.2.1497165716.1682291793&semt=robertav1_2_sidr"
+            alt="Image 2"
+          />
+        </div>
+        <div class="grid-item grid-item-3">
+          <img
+            src="https://img.freepik.com/free-photo/closeup-diamond-ring_53876-33672.jpg?size=626&ext=jpg&ga=GA1.2.1497165716.1682291793&semt=robertav1_2_sidr"
+            alt="Image 3"
+          />
+        </div>
+      <div class="grid-item grid-item-4">
+        <img
+          src="https://img.freepik.com/free-photo/side-view-hand-holding-gold-chain_23-2149836430.jpg?size=626&ext=jpg&ga=GA1.2.1497165716.1682291793&semt=robertav1_2_sidr"
+          alt="Image 4"
+        />
+      </div>
+    </div>
+
+
+    <!-- Lab Grown Section -->
+    <div class="lab_grown">
+      <div class="lab_grown_image">
+        <img
+          src="https://img.freepik.com/free-photo/shiny-jewelry-crystal-platinum-gold-gemstone-drops-generated-by-ai_188544-10734.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+          alt=""
+        />
+      </div>
+      <div class="lab_grown_info">
+        <h4>Lab Grown Diamonds</h4>
+        <h5>Made for Your Moment</h5>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
+          nihil excepturi autem. Quae odit minima ullam hic fugiat pariatur
+          impedit unde soluta? Dolores ipsum eum voluptate assumenda totam et
+          minus!
+        </p>
+
+        <a href="#"><button>shop lab grown</button></a>
+      </div>
+    </div>
+
+
+    <!-- Extra Features -->
+    <div class="extra_features">
+      <ul>
+        <li>
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/selective-focus-closeup-diamond-rings_181624-57691.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+              alt=""
+            />
+            <span>Diamond Shapes</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/selective-focus-closeup-diamond-rings_181624-57691.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+              alt=""
+            />
+            <span>Diamond Shapes</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/selective-focus-closeup-diamond-rings_181624-57691.jpg?size=626&ext=jpg&ga=GA1.1.1497165716.1682291793&semt=robertav1_2_sidr"
+              alt=""
+            />
+            <span>Diamond Shapes</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="social_connects">
+        <div class="social_connects_left">
+          <p>Get Exclusive Offers and News</p>
+          <div class="social_connect_input">
+            <input type="email" placeholder="Your Email" />
+            <button>Sign up</button>
+          </div>
+        </div>
+        <div class="social_connects_right">
+          <p>Connects</p>
+          <div class="social_connects_list">
+            <ul>
+              <li>
+                <a href="#"><img src="images/facebook.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/pinterest.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/twitter.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/instagram.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Footer Menu list -->
+      <div class="footer_menuList">
+        <div>
+          <ul>
+            <p>Customer Care</p>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <p>Customer Care</p>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <p>Customer Care</p>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <p>Customer Care</p>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div>
+          CopyRight &#169 2023 
+        </div>
+        <div>
+          Blue Nile Website
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
